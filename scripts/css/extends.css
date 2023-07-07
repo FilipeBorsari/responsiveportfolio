@@ -1,3 +1,6 @@
+/*Esse arquivo irá facilitar nossa importação nos outros
+css, ja que será necessário importar apenas ele*/
+
 @import './variables.css';
 @import './globals.css';
 
