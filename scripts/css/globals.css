@@ -72,6 +72,14 @@ p:not(:last-of-type),
   font-size: 1.4rem;
 }
 
+.btn.btn-primary:hover {
+  background-color: rgba(60, 65, 92, 0.8);
+  font-size: 110%;
+  transition: 0.5s;
+}
+
+
+
 .max-width {
   width: 100%;
   max-width: 120rem;

@@ -26,7 +26,23 @@
     padding: 1rem;
     display: inline-block;
   }
+
+  .navbar .navbar__content .navbar__links li a::after{
+    content: '';
+    display: block;
+    position: relative;
+    width: 0;
+    height: 3px;
+    background-color: var(--dark-secondary-color);
+    bottom: -10px;
+    left: 0;
+    transition: 0.5s;
+  }
   
+  .navbar .navbar__content .navbar__links li a:hover::after{
+    width: 100%;
+}
+
   .navbar .navbar__content .navbar__links a:hover {
     color: var(--tertiary-color);
   }
