@@ -34,6 +34,7 @@ header {
     right: -1.5rem;
     border-radius: 0.5rem;
     z-index: -1;
+    background: var(--tertiary-color);
   }
   
   header .header__right .header__image .filipe {
