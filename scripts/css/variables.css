@@ -11,3 +11,7 @@
 
   --font-family: 'DM Sans', sans-serif;
 }
+
+/* essas Variáveis são responsáveis por facilitar a chamada e 
+padronizar nosso desenvolvimento, é mais facil chamar "--primary-color" do que
+#02073e */
